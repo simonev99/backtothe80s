@@ -1,0 +1,147 @@
+/* .achtergrond {
+    background-image: url(../img/landschapslide.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+} */
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .achtergrond {  
+  
+    /* animation: 5s ease-out 2s none slideInFromLeft;  */
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-name: slideInFromLeft;
+    animation-iteration-count: none;
+    animation-fill-mode: forwards;
+    padding: 30px;
+  }
+  
+ h1 {
+    font-family: thunderstorm;
+    text-align: center;
+    font-size: 15em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em #ff005e;
+ }
+
+ p {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: #ff005e;
+    padding-top: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ p:hover {
+ color: white;
+ }
+  .achtergrondkleur {
+
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff005e;
+
+
+  }
+
+  body {
+      background-color: black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+a:hover {
+    background-color: white;
+}
+ 
+.witvlak {
+  width: 1620px;
+  margin: 0 auto;
+ position: relative;
+
+}
+.img1 {
+  float: left;
+  width: 1000px;
+  height: 600px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.img2 {
+  width: 600px;
+  height: 600px;
+  margin-bottom: 20px;
+  float: right;
+}
+.img3{
+  width: 600px;
+  height: 600px;
+}
+
+.img4 {
+  float: right;
+  width: 1000px;
+  height: 600px;
+}
+.witvlak2 {
+  width: 1220px;
+  margin: 0 auto;
+  position: relative;
+}
+.img5 {
+  float: left;
+  width: 600px;
+  height: 600px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.img6 {
+  float: right;
+  width: 600px;
+  height: 600px;
+  margin-bottom: 20px;
+
+}
+
+.img7 {
+  width: 1220px;
+}
+
+.tekstvlak {
+  width: 500px;
+  height: 120px;
+  color: red;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+p1 {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 0.1em 0.1em 0.2em #ff005e;
+}
+.lijn {
+  height: 10px;
+  width: 100vw;
+  background-color: white;
+  margin-bottom: 35px;
+  margin-top: 35px;}
